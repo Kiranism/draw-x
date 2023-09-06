@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button'
 import SaveButton from '@/components/SaveButton'
 import ThemeMenuButton from '@/components/ThemeMenuButton'
 import RightPanel from '@/components/RightPanel'
-import { TITLE } from '@/app/layout'
+import { TITLE } from '@/lib/data/constants'
 
 export default function Header() {
   return (

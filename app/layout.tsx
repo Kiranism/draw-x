@@ -7,7 +7,7 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const TITLE = 'Draw-X'
+const TITLE = 'Draw-X'
 const DESCRIPTION =
   'Draw-X is a drawing app which allows multiple users to draw on the same canvas in real-time.'
 

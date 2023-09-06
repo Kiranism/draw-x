@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/server'
-import { TITLE } from '../layout'
+import { TITLE } from '@/lib/data/constants'
 
 export const runtime = 'edge'
 

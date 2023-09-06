@@ -12,7 +12,7 @@ import { nanoid } from 'nanoid'
 import JoinRoomButtoon from '@/components/JoinRoomButton'
 import { SocketIndicator } from '@/components/SocketIndicator'
 import CreateRoomForm from './CreateRoomForm'
-import { TITLE } from '@/app/layout'
+import { TITLE } from '@/lib/data/constants'
 const CollobModal = () => {
   const roomId = nanoid()
   return (
