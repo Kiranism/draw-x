@@ -17,6 +17,8 @@ export interface JoinRoomData {
   username: string
 }
 
+
+
 export interface RoomJoinedData {
   user: User
   roomId: string
