@@ -3,7 +3,7 @@ import { create } from 'zustand'
 export interface User {
   id: string
   username: string
-  roomId?: string | undefined
+  roomId: string
 }
 
 interface UserState {

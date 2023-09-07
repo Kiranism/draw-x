@@ -148,6 +148,7 @@ const ioHandler = (req: NextApiRequest, res: NextApiResponseServerIo) => {
     const user = {
       id: socket.id,
       username,
+      roomId,
     }
     addUser({ ...user, roomId })
     const members = getRoomMembers(roomId)
